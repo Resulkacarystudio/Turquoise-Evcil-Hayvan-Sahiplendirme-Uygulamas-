@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/isci"
+        android:title="İşçi" />
+
+    <item
+        android:id="@+id/memur"
+        android:title="Memur" />
+    <item
+        android:id="@+id/yonetici"
+        android:title="Yönetici" />
+    <item
+        android:id="@+id/ogrenci"
+        android:title="Öğrenci" />
+
+
+</menu>

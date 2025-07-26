@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dene4"
+    android:orientation="vertical"
+    tools:context=".kayit_ol">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center|top"
+        android:layout_margin="10dp"
+        android:background="@drawable/edittext_style"
+        android:gravity="center|top"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@mipmap/denem" />
+
+        <TextView
+            android:id="@+id/kayitol_logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="𝑻𝒖𝒓𝒒𝒖𝒐𝒊𝒔𝒆"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="50sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="5dp"
+            android:background="#000000"
+            android:orientation="vertical"></LinearLayout>
+
+        <EditText
+            android:id="@+id/profilduzenle_kullaniciadi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/giris_style"
+            android:drawableLeft="@drawable/profil_asset"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="Kullanıcı Adı"
+            android:inputType="text"
+            android:padding="5dp"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/profilduzenle_kullanicisifre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/giris_style"
+            android:drawableLeft="@drawable/key"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="Şifre"
+            android:inputType="text"
+            android:padding="5dp"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/profilduzenle_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/giris_style"
+            android:drawableLeft="@android:drawable/sym_action_email"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="E-mail"
+            android:inputType="text"
+            android:padding="5dp"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/profilduzenle_telefon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/giris_style"
+            android:drawableLeft="@android:drawable/stat_sys_phone_call"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="Telefon Numarası"
+            android:inputType="text"
+            android:padding="5dp"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/profilduzenle_ad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/giris_style"
+            android:drawableLeft="@drawable/face"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="Adınız"
+            android:inputType="text"
+            android:padding="5dp"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/profilduzenle_soyad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/giris_style"
+            android:drawableLeft="@drawable/surname"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="Soyadınız"
+            android:inputType="text"
+            android:padding="5dp"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/profilduzenle_adres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/giris_style"
+            android:drawableLeft="@drawable/adres"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="Adresiniz"
+            android:inputType="text"
+            android:padding="5dp"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/profilduzenle_hakkinda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/giris_style"
+            android:drawableLeft="@drawable/biyo"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="Biyografi"
+            android:inputType="text"
+            android:padding="5dp"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center|top"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/cinsiyet_button"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/giris_style"
+                android:drawableRight="@drawable/okasagi"
+                android:text="Cinsiyetiniz"
+                android:textColor="#ffffff"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/sehir_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/giris_style"
+                android:drawableRight="@drawable/okasagi"
+                android:text="Şehir"
+                android:textColor="#ffffff"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center|top"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/dogumt_button"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/giris_style"
+                android:drawableRight="@drawable/okasagi"
+                android:text="Doğum Tarihi"
+                android:textColor="#ffffff"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/meslek_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/giris_style"
+                android:drawableRight="@drawable/okasagi"
+                android:text="Meslek"
+                android:textColor="#ffffff"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/profilduzenle_guncelle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="40dp"
+            android:text="GÜNCELLE" />
+
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
